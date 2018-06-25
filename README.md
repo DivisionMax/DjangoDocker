@@ -1,4 +1,5 @@
-# Django Docker Template
+# DjangoDocker
+A template project for creating a Django project with Docker Compose, uWSGI, Nginx, and SQLite
 
 1. Create a new project in `deployment/app` - `django-admin <project_name> startproject deployment/app`
 1. Replace the `<project_name>` in the following file:
