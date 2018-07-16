@@ -8,3 +8,4 @@ A template project for creating a Django project with Docker Compose, uWSGI, Ngi
 1. `docker-compose up`
 
 By default; the app runs on port `5555`
+SSH into the docker container, `docker exec -it <mycontainer> bash`
