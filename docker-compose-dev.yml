@@ -5,6 +5,6 @@ services:
     ports:
      - "5555:80"
     volumes:
-     - ./db.sqlite3:/code/app/db.sqlite3
+     - ./data:/code/app/data
      - ./deployment/app:/code/app
  
